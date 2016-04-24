@@ -79,7 +79,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GoogleDriveFileSystem.cs" />
+    <Compile Include="App_Packages\LibLog.4.2\LibLog.cs" />
+    <Compile Include="Caching\MemoryCache.cs" />
+    <Compile Include="GoogleDriveFileSystem\FileSystem.cs" />
+    <Compile Include="Caching\ICache.cs" />
+    <Compile Include="GoogleDriveFileSystem\Folder.cs" />
+    <Compile Include="GoogleDriveFileSystem\Path.cs" />
     <Compile Include="IFileSystem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

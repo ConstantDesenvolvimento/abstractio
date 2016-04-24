@@ -9,7 +9,7 @@ namespace Abstractio
         IEnumerable<string> ListFolders(string path);
         void CreateFolder(string path);
         void DeleteFolder(string path);
-        void SaveFile(string path, Stream content);
+        void SaveFile(string path, Stream content,string mimeType);
         void DeleteFile(string path);
         Stream ReadFile(string path);
         IEnumerable<string> SearchFiles(string pattern);
